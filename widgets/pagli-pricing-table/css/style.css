@@ -1,0 +1,59 @@
+/** Icon Text Block Styles **/
+.pagli-pricing-table {
+    text-align: center;
+    /* background: #fdfdfd; */
+    border: 1px solid #f37777;
+    padding-bottom: 27px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 8px 9px #efefef;
+}
+
+.pricing-title {
+    /* background: #f37777; */
+    color: #fff;
+    padding: 7px 0;
+    margin: 0;
+    font-size: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pagli-pricing-table span {
+    padding: 25px 0;
+}
+
+.price-per .price {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.price-per span {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+
+.pagli-pricing-table ul.features {
+    list-style: none;
+    display: inline;
+}
+
+.pagli-pricing-table ul.features li {
+    padding: 8px 0;
+}
+
+a.price-btn {
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 200px;
+    border: 2px solid #f37777;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}

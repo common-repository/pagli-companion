@@ -1,0 +1,52 @@
+/** Testimonial Styles **/
+.pagli-team-member figure, .pagli-team-member figure img {
+    margin: 0px;
+}
+
+.pagli-team-member figure img {
+    border: 1px solid #e8e8e8;
+    padding: 3px;
+}
+
+.pagli-team-member .member-details {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+}
+
+.pagli-team-member .member-social-icons, .member-social-icons .member-name, .member-social-icons .member-designation, .pagli-team-member ul.member-social-icons li{
+    display: inline-block;
+}
+
+.pagli-team-member ul.member-social-icons {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #fff;
+}
+
+.pagli-team-member ul.member-social-icons li {
+    margin: 10px 0px;
+    padding: 0px;
+    padding: 0px 15px;
+    border-right: 1px solid #e4e4e4;
+}
+
+.pagli-team-member ul.member-social-icons li:last-child {
+    border: none;
+}
+
+.pagli-team-member .member-name {
+    font-weight: 500;
+}
+
+.pagli-team-member .member-designation {
+    font-size: 15px;
+}
+
+.pagli-team-member .member-info {
+    margin-top: 8px;
+}

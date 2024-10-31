@@ -1,0 +1,48 @@
+/** Testimonial Styles **/
+
+.pagli-testimonial-slider {
+    /* width: 80%;
+    margin: auto; */
+}
+
+.testimony-content span {
+    display: block;
+    font-size: 50px;
+    color: #848484;
+}
+
+.testimony-content .client-testimony {
+    text-align: center;
+}
+
+.author-info {
+    text-align: center;
+}
+
+.author-image {
+    width: 110px;
+    margin: auto;
+    border-bottom: 4px double #bdbbbb;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.author-image img {
+    width: 100px;
+    border: 2px solid #8c8c8c;
+    border-radius: 50%;
+    height: 100px;
+    padding: 2px;
+}
+
+.author-name span {
+    display: block;
+}
+
+.author-name .name {
+    font-weight: 600;
+}
+
+.author-name .designation {
+    font-size: 14px;
+}

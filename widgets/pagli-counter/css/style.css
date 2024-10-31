@@ -1,0 +1,14 @@
+/** Pagli Counter Styles **/
+.pagli-counter {
+	text-align: center;
+}
+
+.pagli-counter .counter {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.pagli-counter .title {
+    font-weight: 400;
+    font-size: 17px;
+}

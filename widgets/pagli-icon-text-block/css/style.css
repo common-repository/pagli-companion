@@ -1,0 +1,34 @@
+/** Icon Text Block Styles **/
+.pagli-icon-text-block span {
+    font-size: 45px;
+}
+
+.pagli-icon-text-block .content-wrapper h3{
+	margin-bottom: 5px;
+}
+
+/** Layout 2 **/
+.pagli-icon-text-block.layout2 .content-wrapper {
+    width: 82%;
+    float: right;
+    text-align: left;
+}
+
+.pagli-icon-text-block.layout2 .icon-wrapper {
+    width: 15%;
+    float: left;
+    padding: 25px 15px 25px 0px;
+}
+
+/** Layout 3 **/
+.pagli-icon-text-block.layout3 .content-wrapper {
+    width: 82%;
+    float: left;
+    text-align: right;
+}
+
+.pagli-icon-text-block.layout3 .icon-wrapper {
+    width: 15%;
+    float: right;
+    padding: 25px 0px 25px 15px;
+}

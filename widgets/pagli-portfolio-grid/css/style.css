@@ -1,0 +1,152 @@
+/** Portfolio Grid Styles **/
+
+.pagli-portfolio-grid {
+    text-align: center;
+}
+
+.portfolio-filter {
+    margin-bottom: 55px;
+    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.portfolio-filter span {
+    margin: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #7d7d7d;
+    padding: 15px;
+    position: relative;
+}
+
+.portfolio-filter span:after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+    transition: transform .3s;
+    background: #f37777;
+    transform: scaleX(0);
+}
+
+.portfolio-filter > span:hover:after, .portfolio-filter > span.active:after {
+    transform: scaleX(1);
+}
+
+.portfolio-filter > span:hover, .portfolio-filter > span.active{
+    color: #f37777;
+}
+
+.portfolio-post.grid1, .portfolio-post.grid2 {
+	width: 25%;
+}
+
+.portfolio-post img {
+    width: 100%;
+}
+
+.portfolio-post.grid3 {
+	width: 50%;
+}
+
+.portfolio-grid .portfolio-post {
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+    position: relative;
+}
+
+.portfolio-grid figure {
+    margin: 0;
+    position: relative;
+}
+
+.portfolio-grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+.portfolio-grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #2c3f52;
+    color: #ed4e6e;
+}
+
+.portfolio-grid figcaption h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.portfolio-grid figcaption span:before {
+    content: 'by ';
+}
+
+.portfolio-grid figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
+}
+
+/** Hover Effects **/
+.cs-style-5 figure img {
+    z-index: 10;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.cs-style-5 figure:hover img,
+.cs-style-5 figure.cs-hover img {
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.cs-style-5 figcaption {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.cs-style-5 figure:hover figcaption,
+.cs-style-5 figure.cs-hover figcaption {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.cs-style-5 figure a.readmore {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.cs-style-5 figure a.preview {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
